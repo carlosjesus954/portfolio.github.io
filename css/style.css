@@ -89,6 +89,11 @@ box-shadow:  5px 5px 10px #101010,
   
 
 }
+.tittle {
+  margin-bottom: 1.2em;
+  padding: 0.6em;
+  color: var(--color-letras);
+}
 /* Socials */
 .socials {
   display: flex;
@@ -127,12 +132,10 @@ box-shadow:  5px 5px 10px #101010,
   padding: 1.2em;
 }
 .aboutme {
-    
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.6em;
   margin-bottom: 3em;
   padding: 1.6em;
 }
@@ -152,10 +155,7 @@ box-shadow:  5px 5px 10px #101010,
   padding: 1.2em;
   margin-bottom: 1.2em;
 }
-.aboutme__tittle{
-    color: var(--color-letras);
-    padding: 0.6em;
-}
+
 .aboutme__h2 {
   color: var(--color-letras);
 }
@@ -169,39 +169,85 @@ box-shadow:  5px 5px 10px #101010,
 /* Skills */
 
 .skills {
-  
+  padding: 1.6em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
 }
-.skills__tittle {
-}
+
 .skills__cards {
+  padding: 1.2em;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.6em;
 }
 .skills__text {
+  padding: 1.2em;
+  text-align: center;
 }
 .skills__img {
+  margin-bottom: 1.1em;
+  width: 150px;
+  height: 150px;
 }
 .skills__h3 {
+  color: var(--color-letras);
+  font-size: 1.2em;
 }
 
 /* proyects */
 
 .proyects {
-  background-color: burlywood;
-}
-.proyects__h2 {
+  padding: 1.6em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 3em;
+  
 }
 .proyects__cards {
+  padding: 1.2em;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1.6em;
 }
 .proyects__img {
+  border-radius: 20px;
+  height: 300px;
+}
+.proyects__gallery{
+  margin: auto;
+  background-color: transparent;
 }
 .proyects__description {
+  padding: 1.2em;
 }
 .proyects__h3 {
+  color: var(--color-letras);
+  margin-bottom: 0.6em;
+}
+.proyects__cards--margin{
+  margin: 0;
 }
 .proyects__p {
+  color: var(--color-letras);
 }
-
+.proyects__global{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.6em;
+}
+.proyects__link{
+  text-align: center;
+  color: var(--color-letras);
+  padding: 0.6em;
+  font-size: 1.4em;
+  width: 6.6em;
+  margin: auto;
+  text-decoration: var(--verde) underline;
+}
 /* Contact */
 
 .contact {
