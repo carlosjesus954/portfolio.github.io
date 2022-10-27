@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header wrapper">
       <nav class="nav">
         <h1 class="logo">Carlos <span class="text--green">J.</span></h1>
         <ul class="nav__ul">
-          <li class="nav__li"><a href="#" class="nav__a">Inicio</a></li>
-          <li class="nav__li"><a href="#" class="nav__a">Sobre mí</a></li>
-          <li class="nav__li"><a href="#" class="nav__a">Habilidades</a></li>
-          <li class="nav__li"><a href="#" class="nav__a">Proyectos</a></li>
-          <li class="nav__li"><a href="#" class="nav__a">Contaáctame</a></li>
+          <!-- <li class="nav__li"><a href="#" class="nav__a">Inicio</a></li> -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav__close" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+          </svg>
+          <li class="nav__li"><a href="#aboutme" class="nav__a">Sobre mí</a></li>
+          <li class="nav__li"><a href="#skills" class="nav__a">Habilidades</a></li>
+          <li class="nav__li"><a href="#proyects" class="nav__a">Proyectos</a></li>
+          <li class="nav__li"><a href="#contact" class="nav__a">Contáctame</a></li>
         </ul>
         <div class="nav__icons">
           <svg
@@ -35,7 +38,7 @@
       </nav>
     </header>
     <main class="main wrapper">
-      <section class="aboutme button--shadows">
+      <section class="aboutme button--shadows" id="aboutme">
         <h2 class="tittle button--shadows">
           Sobre <span class="text--green">Mí</span>
         </h2>
@@ -77,7 +80,7 @@
             </div>
             <ul class="socials">
               <li class="socials__element button--shadows">
-                <a href="#" class="socials__link">
+                <a href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/" class="socials__link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="socials__img"
@@ -90,7 +93,7 @@
                 </a>
               </li>
               <li class="socials__element button--shadows">
-                <a href="#" class="socials__link">
+                <a href="https://github.com/carlosjesus954" class="socials__link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="socials__img"
@@ -107,7 +110,7 @@
           </div>
         </div>
       </section>
-      <section class="skills button--shadows">
+      <section class="skills button--shadows" id="skills">
         <h2 class="tittle button--shadows">Habilidades</h2>
         <div class="skills__cards button--shadows">
           <div class="skills__text button--shadows">
@@ -128,7 +131,7 @@
           </div>
         </div>
       </section>
-      <section class="proyects wrapper button--shadows">
+      <section class="proyects wrapper button--shadows" id="proyects">
         <h2 class="tittle button--shadows">Proyectos</h2>
         <div class="proyects__global">
           <div class="proyects__cards button--shadows">
@@ -185,8 +188,8 @@
           </div>
         </div>
       </section>
-      <section class="contact button--shadows">
-        <h2 class="tittle button--shadows">Contact</h2>
+      <section class="contact button--shadows" id="contact">
+        <h2 class="tittle button--shadows">Contacto</h2>
         <div class="contact__container button--shadows">
           <div class="info">
             <h3 class="info__ubicacion">Puerto Real, Cádiz</h3>
@@ -219,11 +222,11 @@
         </div>
       </section>
     </main>
-    <footer class="footer ">
+    <footer class="footer wrapper">
       <h5 class="footer__copyright">carlosjesus@copyright</h5>
       <ul class="socials">
         <li class="socials__element button--shadows">
-          <a href="#" class="socials__link">
+          <a href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/" class="socials__link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="socials__img"
@@ -236,7 +239,7 @@
           </a>
         </li>
         <li class="socials__element button--shadows">
-          <a href="#" class="socials__link">
+          <a href="https://github.com/carlosjesus954" class="socials__link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="socials__img"
