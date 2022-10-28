@@ -25,11 +25,12 @@ a {
 }
 body {
   background-color: var(--gris);
+  font-family: "Poppins", sans-serif;
 }
 .text--green {
   color: var(--verde);
 }
-.enviame{
+.enviame {
   display: none;
 }
 /* Nav */
@@ -85,10 +86,10 @@ body {
   padding: 1em;
   cursor: pointer;
 }
-.disabled{
+.disabled {
   display: none;
 }
-.nav__close{
+.nav__close {
   width: 35px;
   fill: var(--color-letras);
   position: absolute;
@@ -97,7 +98,6 @@ body {
   cursor: pointer;
 }
 .nav__menu {
-  
   fill: var(--color-letras);
   width: 35px;
 }
@@ -108,7 +108,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.main{
+.main {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
@@ -138,7 +138,7 @@ body {
   width: 35px;
   fill: var(--color-letras);
 }
-.socials__img:hover{
+.socials__img:hover {
   fill: var(--verde);
   transition: 0.5s;
 }
@@ -161,11 +161,10 @@ body {
   margin-bottom: 3em;
   padding: 1.6em;
 }
-.aboutme__gallery{
+.aboutme__gallery {
   max-width: 500px;
 }
 .aboutme__img {
-  
   /* max-width: 500px; */
   margin: auto;
 }
@@ -190,7 +189,6 @@ body {
 .aboutme__h3 {
   color: var(--verde);
   font-size: 1.5em;
-
 }
 .aboutme__p {
   color: var(--color-letras);
@@ -291,7 +289,7 @@ body {
 .contact {
   padding: 1.6em;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: center;
   margin-bottom: 3em;
 }
@@ -301,7 +299,7 @@ body {
   gap: 1.6em;
   padding: 1em;
 }
-.info{
+.info {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -315,9 +313,11 @@ body {
   color: var(--color-letras);
 }
 .form {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1.6em;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5em;
+  padding: 1em;
+  overflow: hidden;
 }
 
 .form__input {
@@ -345,47 +345,47 @@ body {
   color: var(--color-letras);
 }
 
-@media screen and (min-width: 750px){
-  .skills__cards{
+@media screen and (min-width: 750px) {
+  .skills__cards {
     grid-template-columns: repeat(2, 1fr);
   }
   .nav__ul {
     background-color: transparent;
     position: static;
-  display: flex;
-  flex-flow: row wrap;
-  gap: 1.5em;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
-  right: 0;
-  top: 0;
-  width: auto;
-  height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: auto;
   }
-  .nav__close{
+  .nav__close {
     display: none;
   }
-  .nav__icons{
+  .nav__icons {
     display: none;
   }
-  .nav__li{
+  .nav__li {
     margin: 0;
   }
 }
-@media screen and (min-width: 1200px){
-  .aboutme__global{
+@media screen and (min-width: 1200px) {
+  .aboutme__global {
     grid-template-columns: repeat(2, 1fr);
   }
-  .skills__cards{
+  .skills__cards {
     grid-template-columns: repeat(4, 1fr);
   }
-  .proyects__global{
+  .proyects__global {
     grid-template-columns: repeat(2, 1fr);
   }
-  .main{
+  .main {
     padding-left: 0;
-  padding-right: 0;
+    padding-right: 0;
   }
   .contact__container {
     grid-template-columns: repeat(2, 1fr);

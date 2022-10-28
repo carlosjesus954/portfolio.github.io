@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -14,13 +20,28 @@
         <h1 class="logo">Carlos <span class="text--green">J.</span></h1>
         <ul class="nav__ul">
           <!-- <li class="nav__li"><a href="#" class="nav__a">Inicio</a></li> -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav__close" viewBox="0 0 16 16">
-            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="nav__close"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+            />
           </svg>
-          <li class="nav__li"><a href="#aboutme" class="nav__a">Sobre mí</a></li>
-          <li class="nav__li"><a href="#skills" class="nav__a">Habilidades</a></li>
-          <li class="nav__li"><a href="#proyects" class="nav__a">Proyectos</a></li>
-          <li class="nav__li"><a href="#contact" class="nav__a">Contáctame</a></li>
+          <li class="nav__li">
+            <a href="#aboutme" class="nav__a">Sobre mí</a>
+          </li>
+          <li class="nav__li">
+            <a href="#skills" class="nav__a">Habilidades</a>
+          </li>
+          <li class="nav__li">
+            <a href="#proyects" class="nav__a">Proyectos</a>
+          </li>
+          <li class="nav__li">
+            <a href="#contact" class="nav__a">Contáctame</a>
+          </li>
         </ul>
         <div class="nav__icons">
           <svg
@@ -45,10 +66,11 @@
         <div class="aboutme__global">
           <div class="aboutme__gallery">
             <img
-            src="imagenes/photo_me2.jpg"
-            alt="Carlos Jesús"
-            class="aboutme__img button--shadows"
-          />
+              src="imagenes/photo_me2.png"
+              alt="Carlos Jesús"
+              class="aboutme__img button--shadows"
+              loading="lazy"
+            />
           </div>
           <div class="">
             <div class="aboutme__container button--shadows">
@@ -57,13 +79,16 @@
               </h2>
               <h3 class="aboutme__h3">Frontend Developer</h3>
               <p class="aboutme__p">
-                ✔️ Me encanta el mundillo de la programación web, pero más me encanta ver como me supero cada día más. 
+                ✔️ Me encanta el mundillo de la programación web, pero más me
+                encanta ver como me supero cada día más.
               </p>
               <p class="aboutme__p">
-                ✔️ Me gusta ser bastante cuidadoso con el código y los detalles del diseño de la página.
+                ✔️ Me gusta ser bastante cuidadoso con el código y los detalles
+                del diseño de la página.
               </p>
               <p class="aboutme__p">
-                ✔️ Soy una persona bastante sociable y me gusta mucho compartir recursos con mis compañeros/as y también recibir recursos. 
+                ✔️ Soy una persona bastante sociable y me gusta mucho compartir
+                recursos con mis compañeros/as y también recibir recursos.
               </p>
               <p class="aboutme__p">
                 ✔️ Ahora estoy terminando de cursar un Grado superior de
@@ -80,7 +105,10 @@
             </div>
             <ul class="socials">
               <li class="socials__element button--shadows">
-                <a href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/" class="socials__link">
+                <a
+                  href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
+                  class="socials__link"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="socials__img"
@@ -93,7 +121,10 @@
                 </a>
               </li>
               <li class="socials__element button--shadows">
-                <a href="https://github.com/carlosjesus954" class="socials__link">
+                <a
+                  href="https://github.com/carlosjesus954"
+                  class="socials__link"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="socials__img"
@@ -114,19 +145,24 @@
         <h2 class="tittle button--shadows">Habilidades</h2>
         <div class="skills__cards button--shadows">
           <div class="skills__text button--shadows">
-            <img src="imagenes/html5.png" alt="html5" class="skills__img" />
+            <img src="imagenes/html5.png" alt="html5" class="skills__img" loading="lazy"/>
             <h3 class="skills__h3">Html</h3>
           </div>
           <div class="skills__text button--shadows">
-            <img src="imagenes/css.png" alt="html5" class="skills__img" />
+            <img src="imagenes/css.png" alt="html5" class="skills__img" loading="lazy"/>
             <h3 class="skills__h3">Css</h3>
           </div>
           <div class="skills__text button--shadows">
-            <img src="imagenes/javascript.png" alt="html5" class="skills__img" />
+            <img
+              src="imagenes/javascript.png"
+              alt="html5"
+              class="skills__img"
+              loading="lazy"
+            />
             <h3 class="skills__h3">Javascript</h3>
           </div>
           <div class="skills__text button--shadows">
-            <img src="imagenes/bootstrap.png" alt="html5" class="skills__img" />
+            <img src="imagenes/bootstrap.png" alt="html5" class="skills__img" loading="lazy"/>
             <h3 class="skills__h3">Boostrapp</h3>
           </div>
         </div>
@@ -135,59 +171,106 @@
         <h2 class="tittle button--shadows">Proyectos</h2>
         <div class="proyects__global">
           <div class="proyects__cards button--shadows">
-            <div class="proyects__gallery ">
+            <div class="proyects__gallery">
               <img
                 src="imagenes/marvel__proyecto.jpg"
                 alt="Marvel"
                 class="proyects__img button--shadows"
+                loading="lazy"
               />
             </div>
 
             <div class="proyects__description button--shadows">
               <h3 class="proyects__h3">Marvel</h3>
               <p class="proyects__p">
-                Este proyecto esta realizado con Html, Css y un poco de Javascript.
-                Es un pequeño proyecto imitando algunas similitudes a la página de marvel real, el diseño, con 
-                algunas cards de las que se puede observar dentro de la web y simulación de publicidad y un footer
-                desarrollado asemejandose a la pagina real.
+                Este proyecto esta realizado con Html, Css y un poco de
+                Javascript. Es un pequeño proyecto imitando algunas similitudes
+                a la página de marvel real, el diseño, con algunas cards de las
+                que se puede observar dentro de la web y simulación de
+                publicidad y un footer desarrollado asemejandose a la pagina
+                real.
               </p>
               <div class="proyects__metodologias">
-                <img src="imagenes/javascript.png" alt="javascript" class="metodologias__icons icons--big">
-                <img src="imagenes/html5.png" alt="html" class="metodologias__icons">
-                <img src="imagenes/css.png" alt="css" class="metodologias__icons">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
               </div>
             </div>
 
-            <a href="https://carlosjesus954.github.io/marvel.github.io/" class="proyects__link  button--shadows" target="_blank">Ver sitio</a>
+            <a
+              href="https://carlosjesus954.github.io/marvel.github.io/"
+              class="proyects__link button--shadows"
+              target="_blank"
+              >Ver sitio</a
+            >
           </div>
           <div class="proyects__cards button--shadows">
-            <div class="proyects__gallery ">
+            <div class="proyects__gallery">
               <img
                 src="imagenes/tiendafunkos__proyecto2.jpg"
                 alt="Marvel"
                 class="proyects__img button--shadows"
+                loading="lazy"
               />
             </div>
 
             <div class="proyects__description button--shadows">
               <h3 class="proyects__h3">Funkos Tienda</h3>
               <p class="proyects__p">
-                Es un proyecto en el que es mas funcional y mas interactivo con el usuario, ya que puedes añadir elementos
-                a un carrito, podras eliminarlos o vaciar entero el carrito y mucho más.
-                El diseño en si no ha sido copiado de ninguna página en especifico, ya que es mas simple pero mucho mas interactivo.              
-                Poniendo a prueba mis conocimientos de Javascript.
+                Es un proyecto en el que es mas funcional y mas interactivo con
+                el usuario, ya que puedes añadir elementos a un carrito, podras
+                eliminarlos o vaciar entero el carrito y mucho más. El diseño en
+                si no ha sido copiado de ninguna página en especifico, ya que es
+                mas simple pero mucho mas interactivo. Poniendo a prueba mis
+                conocimientos de Javascript.
               </p>
               <div class="proyects__metodologias">
-                <img src="imagenes/javascript.png" alt="javascript" class="metodologias__icons icons--big">
-                <img src="imagenes/html5.png" alt="html" class="metodologias__icons">
-                <img src="imagenes/css.png" alt="css" class="metodologias__icons">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
               </div>
             </div>
 
-            <a href="https://carlosjesus954.github.io/funkosshop.github.io/" class="proyects__link  button--shadows" target="_blank">Ver sitio</a>
+            <a
+              href="https://carlosjesus954.github.io/funkosshop.github.io/"
+              class="proyects__link button--shadows"
+              target="_blank"
+              >Ver sitio</a
+            >
           </div>
         </div>
       </section>
+
       <section class="contact button--shadows" id="contact">
         <h2 class="tittle button--shadows">Contacto</h2>
         <div class="contact__container button--shadows">
@@ -216,17 +299,25 @@
               class="form__input button--shadows"
               placeholder="Escriba su mensaje..."
             ></textarea>
-            <input type="submit" value="Enviar" class="form__submit form__input button--shadows">
+            <input
+              type="submit"
+              value="Enviar"
+              class="form__submit form__input button--shadows"
+            />
           </form>
           <a href="mailto:carlosmoralessoy@gmail.com" class="enviame">mail</a>
         </div>
       </section>
+      
     </main>
     <footer class="footer wrapper">
       <h5 class="footer__copyright">carlosjesus@copyright</h5>
       <ul class="socials">
         <li class="socials__element button--shadows">
-          <a href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/" class="socials__link">
+          <a
+            href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
+            class="socials__link"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="socials__img"
