@@ -80,7 +80,11 @@ body {
 .nav__a {
   color: var(--color-letras);
   font-size: 1.5em;
-  text-decoration: var(--verde) underline;
+  
+}
+.nav__a:hover{
+  text-decoration: var(--verde) underline 2px;
+  transition: 1s;
 }
 .nav__icons {
   padding: 1em;
@@ -115,7 +119,7 @@ body {
 .tittle {
   margin-bottom: 1.2em;
   padding: 0.6em;
-  color: var(--color-letras);
+  color: var(--verde);
 }
 /* Socials */
 .socials {
@@ -328,6 +332,11 @@ body {
   outline: none;
 }
 
+.form__submit:hover{
+  color: var(--verde);
+  transition: 0.5s;
+}
+
 /* footer */
 
 .footer {
@@ -343,6 +352,7 @@ body {
 }
 .footer__copyright {
   color: var(--color-letras);
+  font-size: 0.8em;
 }
 
 @media screen and (min-width: 750px) {
