@@ -4,7 +4,7 @@
   --verde: #16c60c;
 }
 .wrapper {
-  max-width: 1200px;
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
   /* padding: 1.5em; */
@@ -35,9 +35,9 @@ body {
 }
 /* Nav */
 .header {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: 5px 5px 10px #101010, -5px -5px 10px #3e3e3e;
+  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
   margin-bottom: 3em;
   margin-top: 1.5em;
 }
@@ -65,7 +65,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(.125rem);
   right: -110%;
   top: 0;
   transition: 0.5s;
@@ -83,7 +83,7 @@ body {
   
 }
 .nav__a:hover{
-  text-decoration: var(--verde) underline 2px;
+  text-decoration: var(--verde) underline .125rem;
   transition: 1s;
 }
 .nav__icons {
@@ -94,7 +94,7 @@ body {
   display: none;
 }
 .nav__close {
-  width: 35px;
+  width: 2.1875rem;
   fill: var(--color-letras);
   position: absolute;
   top: 2.7em;
@@ -103,12 +103,12 @@ body {
 }
 .nav__menu {
   fill: var(--color-letras);
-  width: 35px;
+  width: 2.1875rem;
 }
 /* Main */
 /* Wrapper */
 .wrapper {
-  max-width: 1200px;
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,15 +131,15 @@ body {
   gap: 2em;
 }
 .socials__element {
-  width: 35px;
-  height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
 }
 .socials__link {
-  width: 35px;
-  height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
 }
 .socials__img {
-  width: 35px;
+  width: 2.1875rem;
   fill: var(--color-letras);
 }
 .socials__img:hover {
@@ -148,13 +148,13 @@ body {
 }
 /* AboutMe */
 .button--shadows {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: 5px 5px 10px #101010, -5px -5px 10px #3e3e3e;
+  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
 }
 .button--cuadrados {
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: 5px 5px 10px #101010, -5px -5px 10px #3e3e3e;
+  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
 }
 
 .aboutme {
@@ -166,7 +166,7 @@ body {
   padding: 1.6em;
 }
 .aboutme__gallery {
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 .aboutme__img {
   /* max-width: 500px; */
@@ -184,7 +184,7 @@ body {
   gap: 1.2em;
   padding: 1.2em;
   margin-bottom: 1.2em;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 
 .aboutme__h2 {
@@ -221,8 +221,8 @@ body {
 }
 .skills__img {
   margin-bottom: 1.1em;
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
 }
 .skills__h3 {
   color: var(--color-letras);
@@ -245,8 +245,8 @@ body {
   gap: 1.6em;
 }
 .proyects__img {
-  border-radius: 20px;
-  height: 300px;
+  border-radius: 1.25rem;
+  height: 18.75rem;
 }
 .proyects__gallery {
   margin: auto;
@@ -257,7 +257,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   gap: 1em;
-  max-width: 576px;
+  max-width: 36rem;
 }
 .proyects__h3 {
   color: var(--color-letras);
@@ -340,9 +340,9 @@ body {
 /* footer */
 
 .footer {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: 5px 5px 10px #101010, -5px -5px 10px #3e3e3e;
+  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
   padding: 1em;
   display: flex;
   flex-flow: row wrap;
