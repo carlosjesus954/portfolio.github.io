@@ -14,13 +14,12 @@ nav__close.addEventListener('click', cerrarMenu)
 function mostrarMenu(){
     console.log('hola');
     nav__ul.classList.toggle('activo')
-    nav__icons.classList.toggle('disable')
 }
 
 function cerrarMenu(){
 
     nav__ul.classList.toggle('activo')
-    nav__icons.classList.toggle('disable')
+
 }
 
 function enviarFormulario (evento){
