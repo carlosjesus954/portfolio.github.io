@@ -5,10 +5,14 @@ const nav__close = document.querySelector('.nav__close')
 const nav__icons = document.querySelector('.nav__icons')
 const form = document.querySelector('.form')
 const button__enviame = document.querySelector('.enviame')
+const nav__a = document.querySelectorAll('.nav__a')
 // Eventos
 menu.addEventListener('click', mostrarMenu)
 form.addEventListener('submit', enviarFormulario)
 nav__close.addEventListener('click', cerrarMenu)
+nav__a.forEach((e)=>{
+    e.addEventListener('click', cerrarMenu)
+})
 // Funciones
 
 function mostrarMenu(){
