@@ -329,7 +329,7 @@ body {
   padding: 1em;
   border-style: none;
   cursor: pointer;
-  outline: none;
+  /* outline: none; */
 }
 
 .form__submit:hover{
