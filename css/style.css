@@ -120,6 +120,9 @@ body {
   margin-bottom: 1.2em;
   padding: 0.6em;
   color: var(--verde);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
 }
 /* Socials */
 .socials {
@@ -148,6 +151,7 @@ body {
 }
 /* AboutMe */
 .button--shadows {
+  
   border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
   box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
@@ -163,12 +167,13 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 3em;
-  padding: 1.6em;
 }
 .aboutme__gallery {
   max-width: 31.25rem;
 }
 .aboutme__img {
+
+  
   /* max-width: 500px; */
   margin: auto;
 }
@@ -178,6 +183,13 @@ body {
   text-align: left;
   gap: 1.6em;
 }
+.aboutme__container--padding{
+  padding: 1.6rem;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+}
 .aboutme__container {
   display: flex;
   flex-flow: column wrap;
@@ -186,13 +198,11 @@ body {
   margin-bottom: 1.2em;
   max-width: 31.25rem;
 }
-
 .aboutme__h2 {
   color: var(--color-letras);
-}
-.aboutme__h3 {
-  color: var(--verde);
-  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
 }
 .aboutme__p {
   color: var(--color-letras);
@@ -221,8 +231,8 @@ body {
 }
 .skills__img {
   margin-bottom: 1.1em;
-  width: 9.375rem;
-  height: 9.375rem;
+  width: 4.375rem;
+  height: 4.375rem;
 }
 .skills__h3 {
   color: var(--color-letras);
@@ -261,7 +271,9 @@ body {
 }
 .proyects__h3 {
   color: var(--color-letras);
-  font-size: 1.4em;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
 }
 .proyects__cards--margin {
   margin: 0;
@@ -284,8 +296,12 @@ body {
   text-decoration: var(--verde) underline;
 }
 .proyects__metodologias {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+flex-flow: row wrap;
+gap: 1.25rem;
+}
+.metodologias__icons{
+  width: 2rem;
 }
 
 /* Contact */
@@ -387,8 +403,15 @@ body {
   .aboutme__global {
     grid-template-columns: repeat(2, 1fr);
   }
+  .aboutme__gallery{
+    border-radius: 1.25rem;
+    max-width: 100%;
+  }
+  .aboutme__img{
+    border-radius: 1.25rem;
+  }
   .skills__cards {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
   .proyects__global {
     grid-template-columns: repeat(2, 1fr);

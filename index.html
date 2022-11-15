@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/app.js"></script>
@@ -23,16 +24,11 @@
         <h1 class="logo">Carlos <span class="text--green">J.</span></h1>
         <ul class="nav__ul">
           <!-- <li class="nav__li"><a href="#" class="nav__a">Inicio</a></li> -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            class="nav__close"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
-            />
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav__close" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
           </svg>
+          </li>
           <li class="nav__li">
             <a href="#aboutme" class="nav__a" title="sobremi">Sobre mí</a>
           </li>
@@ -64,7 +60,7 @@
     </header>
     <main class="main wrapper">
       <section class="aboutme button--shadows" id="aboutme">
-        <h2 class="tittle button--shadows">
+        <h2 class="tittle">
           Sobre <span class="text--green">Mí</span>
         </h2>
         <div class="aboutme__global">
@@ -72,43 +68,28 @@
             <img
               src="imagenes/photo_me2.png"
               alt="Carlos Jesús"
-              class="aboutme__img button--shadows"
+              class="aboutme__img "
               loading="lazy"
             />
           </div>
-          <div class="">
+          <div class="aboutme__container--padding">
             <div class="aboutme__container button--shadows">
-              <h2 class="aboutme__h2">
-                Carlos <span class="text--green">Jesús.</span>
-              </h2>
-              <h3 class="aboutme__h3">Frontend Developer</h3>
+              <h3 class="aboutme__h2">Frontend Developer</h3>
               <p class="aboutme__p">
-                ✔️ Me encanta el mundillo de la programación web, pero más me
+                Me encanta el mundillo de la programación web, pero más me
                 encanta ver como me supero cada día más.
               </p>
               <p class="aboutme__p">
-                ✔️ Me gusta ser bastante cuidadoso con el código y los detalles
+                Me gusta ser bastante cuidadoso con el código y los detalles
                 del diseño de la página.
               </p>
               <p class="aboutme__p">
-                ✔️ Soy una persona bastante sociable y me gusta mucho compartir
-                recursos con mis compañeros/as y también recibir recursos.
-              </p>
-              <p class="aboutme__p">
-                ✔️ Ahora estoy terminando de cursar un Grado superior de
-                Desarrollo de Aplicaciones web.
-              </p>
-              <p class="aboutme__p">
-                ✔️ Me considero una persona bastante autodidacta y bastante
-                disciplinada.
-              </p>
-              <p class="aboutme__p">
-                ✔️ Por ultimo me encanta como hobbies hacer deporte en el
-                gimnasio y ver series o películas.
+                Soy una persona bastante sociable y me gusta mucho compartir y recibir
+                recursos con mis compañeros/as.
               </p>
             </div>
             <ul class="socials">
-              <li class="socials__element button--shadows">
+              <li class="socials__element">
                 <a
                   href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
                   class="socials__link"
@@ -125,7 +106,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="socials__element button--shadows">
+              <li class="socials__element ">
                 <a
                   href="https://github.com/carlosjesus954"
                   class="socials__link"
@@ -147,9 +128,118 @@
           </div>
         </div>
       </section>
+      <section class="proyects wrapper button--shadows" id="proyects">
+        <h2 class="tittle ">Proyectos</h2>
+        <div class="proyects__global">
+          <div class="proyects__cards ">
+            <div class="proyects__gallery">
+              <img
+                src="imagenes/marvel__proyecto.jpg"
+                alt="Marvel"
+                class="proyects__img "
+                loading="lazy"
+              />
+            </div>
+
+            <div class="proyects__description button--shadows">
+              <h3 class="proyects__h3">Marvel</h3>
+              <div class="proyects__metodologias">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+              </div>
+              <p class="proyects__p">
+                Este proyecto esta realizado con Html, Css y un poco de
+                Javascript. Es un pequeño proyecto imitando algunas similitudes
+                a la página de marvel real, el diseño, con algunas cards de las
+                que se puede observar dentro de la web y simulación de
+                publicidad y un footer desarrollado asemejandose a la pagina
+                real.
+              </p>
+              
+            </div>
+
+            <a
+              href="https://carlosjesus954.github.io/marvel.github.io/"
+              class="proyects__link button--shadows"
+              target="_blank"
+              rel=”noopener”
+              title="sitio"
+              >Ver sitio</a
+            >
+          </div>
+          <div class="proyects__cards">
+            <div class="proyects__gallery">
+              <img
+                src="imagenes/tiendafunkos__proyecto2.jpg"
+                alt="Marvel"
+                class="proyects__img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="proyects__description button--shadows">
+              <h3 class="proyects__h3">Funkos Tienda</h3>
+              <div class="proyects__metodologias">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+              </div>
+              <p class="proyects__p">
+                Es un proyecto en el que es mas funcional y mas interactivo con
+                el usuario, ya que puedes añadir elementos a un carrito, podras
+                eliminarlos o vaciar entero el carrito y mucho más. El diseño en
+                si no ha sido copiado de ninguna página en especifico, ya que es
+                mas simple pero mucho mas interactivo. Poniendo a prueba mis
+                conocimientos de Javascript.
+              </p>
+              
+            </div>
+
+            <a
+              href="https://carlosjesus954.github.io/funkosshop.github.io/"
+              class="proyects__link button--shadows"
+              target="_blank"
+              rel=”noopener”
+              title="sitio"
+              >Ver sitio</a
+            >
+          </div>
+        </div>
+      </section>
       <section class="skills button--shadows" id="skills">
-        <h2 class="tittle button--shadows">Habilidades</h2>
-        <div class="skills__cards button--shadows">
+        <h2 class="tittle">Habilidades</h2>
+        <div class="skills__cards ">
           <div class="skills__text button--shadows">
             <img src="imagenes/html5.png" alt="html5" class="skills__img" loading="lazy"/>
             <h3 class="skills__h3">Html</h3>
@@ -169,7 +259,7 @@
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/bootstrap.png" alt="Boostrapp" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Boostrapp</h3>
+            <h3 class="skills__h3">Bootstrap</h3>
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/git.png" alt="git" class="skills__img" loading="lazy"/>
@@ -177,117 +267,11 @@
           </div>
         </div>
       </section>
-      <section class="proyects wrapper button--shadows" id="proyects">
-        <h2 class="tittle button--shadows">Proyectos</h2>
-        <div class="proyects__global">
-          <div class="proyects__cards button--shadows">
-            <div class="proyects__gallery">
-              <img
-                src="imagenes/marvel__proyecto.jpg"
-                alt="Marvel"
-                class="proyects__img button--shadows"
-                loading="lazy"
-              />
-            </div>
-
-            <div class="proyects__description button--shadows">
-              <h3 class="proyects__h3">Marvel</h3>
-              <p class="proyects__p">
-                Este proyecto esta realizado con Html, Css y un poco de
-                Javascript. Es un pequeño proyecto imitando algunas similitudes
-                a la página de marvel real, el diseño, con algunas cards de las
-                que se puede observar dentro de la web y simulación de
-                publicidad y un footer desarrollado asemejandose a la pagina
-                real.
-              </p>
-              <div class="proyects__metodologias">
-                <img
-                  src="imagenes/javascript.png"
-                  alt="javascript"
-                  class="metodologias__icons icons--big"
-                  loading="lazy"
-                />
-                <img
-                  src="imagenes/html5.png"
-                  alt="html"
-                  class="metodologias__icons"
-                  loading="lazy"
-                />
-                <img
-                  src="imagenes/css.png"
-                  alt="css"
-                  class="metodologias__icons"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-
-            <a
-              href="https://carlosjesus954.github.io/marvel.github.io/"
-              class="proyects__link button--shadows"
-              target="_blank"
-              rel=”noopener”
-              title="sitio"
-              >Ver sitio</a
-            >
-          </div>
-          <div class="proyects__cards button--shadows">
-            <div class="proyects__gallery">
-              <img
-                src="imagenes/tiendafunkos__proyecto2.jpg"
-                alt="Marvel"
-                class="proyects__img button--shadows"
-                loading="lazy"
-              />
-            </div>
-
-            <div class="proyects__description button--shadows">
-              <h3 class="proyects__h3">Funkos Tienda</h3>
-              <p class="proyects__p">
-                Es un proyecto en el que es mas funcional y mas interactivo con
-                el usuario, ya que puedes añadir elementos a un carrito, podras
-                eliminarlos o vaciar entero el carrito y mucho más. El diseño en
-                si no ha sido copiado de ninguna página en especifico, ya que es
-                mas simple pero mucho mas interactivo. Poniendo a prueba mis
-                conocimientos de Javascript.
-              </p>
-              <div class="proyects__metodologias">
-                <img
-                  src="imagenes/javascript.png"
-                  alt="javascript"
-                  class="metodologias__icons icons--big"
-                  loading="lazy"
-                />
-                <img
-                  src="imagenes/html5.png"
-                  alt="html"
-                  class="metodologias__icons"
-                  loading="lazy"
-                />
-                <img
-                  src="imagenes/css.png"
-                  alt="css"
-                  class="metodologias__icons"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-
-            <a
-              href="https://carlosjesus954.github.io/funkosshop.github.io/"
-              class="proyects__link button--shadows"
-              target="_blank"
-              rel=”noopener”
-              title="sitio"
-              >Ver sitio</a
-            >
-          </div>
-        </div>
-      </section>
+      
 
       <section class="contact button--shadows" id="contact">
-        <h2 class="tittle button--shadows">Contacto</h2>
-        <div class="contact__container button--shadows">
+        <h2 class="tittle ">Contacto</h2>
+        <div class="contact__container ">
           <div class="info">
             <h3 class="info__ubicacion">Puerto Real, Cádiz</h3>
             <h3 class="info__correo">Correo Electronico Proximamente...</h3>
@@ -327,7 +311,7 @@
     <footer class="footer wrapper">
       <p class="footer__copyright">carlosjesus@copyright</p>
       <ul class="socials">
-        <li class="socials__element button--shadows">
+        <li class="socials__element ">
           <a
             href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
             class="socials__link"
@@ -344,7 +328,7 @@
             </svg>
           </a>
         </li>
-        <li class="socials__element button--shadows">
+        <li class="socials__element">
           <a href="https://github.com/carlosjesus954" class="socials__link" title="github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
