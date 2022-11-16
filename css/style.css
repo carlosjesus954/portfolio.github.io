@@ -47,9 +47,10 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  padding: 1rem;
 }
 
-.logo {
+.nav__logo {
   color: var(--color-letras);
   margin: 0;
   padding-left: 0.5em;
