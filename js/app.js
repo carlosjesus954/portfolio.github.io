@@ -13,6 +13,16 @@ navClose.addEventListener('click', cerrarMenu)
 navA.forEach((e)=>{
     e.addEventListener('click', cerrarMenu)
 })
+// Efecto smooth cuando hacemos click a algun enlace del header
+navA.forEach((link) => {
+    link.addEventListener('click', (e)=>{
+        e.preventDefault()
+
+        const seccionScroll = e.target.attributes.href.value;
+        const seccion = document.querySelector(seccionScroll);
+        seccion.scrollIntoView({behavior: "smooth"});
+    })
+});
 // Funciones
 
 function mostrarMenu(){

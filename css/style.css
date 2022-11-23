@@ -170,13 +170,9 @@ body {
   margin-bottom: 3em;
 }
 .aboutme__gallery {
-  max-width: 31.25rem;
-}
-.aboutme__img {
-
-  
-  /* max-width: 500px; */
   margin: auto;
+  max-width: 31.25rem;
+  padding: 1.6rem;
 }
 .aboutme__global {
   display: grid;
@@ -398,6 +394,9 @@ gap: 1.25rem;
   }
   .nav__li {
     margin: 0;
+  }
+  .aboutme__gallery{
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
