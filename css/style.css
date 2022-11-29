@@ -419,7 +419,10 @@ gap: 1.25rem;
     grid-template-columns: repeat(6, 1fr);
   }
   .proyects__global {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .proyects__description{
+    height: 21rem;
   }
   .main {
     padding-left: 0;
