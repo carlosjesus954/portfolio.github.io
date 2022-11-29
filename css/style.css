@@ -33,11 +33,38 @@ body {
 .enviame {
   display: none;
 }
-/* Nav */
-.header {
+.mode--light{
+  background-color: #fff;
+}
+.text--lightmode{
+  color: #141414;
+}
+.text--darkmode{
+  color: var(--color-letras);
+}
+.socials__img--light{
+  fill: #141414;
+}
+.socials__img--dark{
+  fill: var(--color-letras);
+}
+.button--lightshadows{
+  border-radius: 1.25rem;
+  background:linear-gradient(145deg, #dbdbdb);
+  box-shadow: .3125rem .3125rem .625rem rgb(235, 235, 235), -0.3125rem -0.3125rem .625rem #3e3e3e;
+}
+.button--shadows {
+  
   border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
   box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
+}
+.button--cuadrados {
+  background: linear-gradient(145deg, #2a2a2a, #232323);
+  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
+}
+/* Nav */
+.header {
   margin-bottom: 3em;
   margin-top: 1.5em;
 }
@@ -49,14 +76,26 @@ body {
   position: relative;
   padding: 1rem;
 }
-
+.nav__container{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: start;
+}
+.nav__moon{
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-letras);
+}
+.nav__moon--light{
+  fill: #141414;
+}
 .nav__logo {
-  color: var(--color-letras);
   margin: 0;
   padding-left: 0.5em;
 }
 .nav__ul {
-  background-color: #272727;
   display: flex;
   flex-flow: column wrap;
   gap: 1.5em;
@@ -72,6 +111,9 @@ body {
   transition: 0.5s;
   border-radius: 0.2em;
 }
+.nav__ul--dark{
+  background-color: #272727;
+}
 .activo {
   right: 0%;
 }
@@ -79,9 +121,7 @@ body {
   margin: 2.5em;
 }
 .nav__a {
-  color: var(--color-letras);
   font-size: 1.5em;
-  
 }
 .nav__a:hover{
   text-decoration: var(--verde) underline .125rem;
@@ -96,14 +136,12 @@ body {
 }
 .nav__close {
   width: 2.1875rem;
-  fill: var(--color-letras);
   position: absolute;
   top: 2.7em;
   right: 2em;
   cursor: pointer;
 }
 .nav__menu {
-  fill: var(--color-letras);
   width: 2.1875rem;
 }
 /* Main */
@@ -144,23 +182,12 @@ body {
 }
 .socials__img {
   width: 2.1875rem;
-  fill: var(--color-letras);
 }
 .socials__img:hover {
   fill: var(--verde);
   transition: 0.5s;
 }
 /* AboutMe */
-.button--shadows {
-  
-  border-radius: 1.25rem;
-  background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
-}
-.button--cuadrados {
-  background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
-}
 
 .aboutme {
   display: flex;
@@ -196,15 +223,10 @@ justify-content: center;
   max-width: 31.25rem;
 }
 .aboutme__h2 {
-  color: var(--color-letras);
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
 }
-.aboutme__p {
-  color: var(--color-letras);
-}
-
 /* Skills */
 
 .skills {
@@ -232,7 +254,6 @@ justify-content: center;
   height: 4.375rem;
 }
 .skills__h3 {
-  color: var(--color-letras);
   font-size: 1.2em;
 }
 
@@ -267,16 +288,12 @@ justify-content: center;
   max-width: 36rem;
 }
 .proyects__h3 {
-  color: var(--color-letras);
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
 }
 .proyects__cards--margin {
   margin: 0;
-}
-.proyects__p {
-  color: var(--color-letras);
 }
 .proyects__global {
   display: grid;
@@ -285,7 +302,6 @@ justify-content: center;
 }
 .proyects__link {
   text-align: center;
-  color: var(--color-letras);
   padding: 0.6em;
   font-size: 1.4em;
   width: 6.6em;
@@ -323,12 +339,6 @@ gap: 1.25rem;
   gap: 1.6em;
   text-align: center;
 }
-.info__ubicacion {
-  color: var(--color-letras);
-}
-.info__correo {
-  color: var(--color-letras);
-}
 .form {
   display: flex;
   flex-flow: column nowrap;
@@ -338,7 +348,6 @@ gap: 1.25rem;
 }
 
 .form__input {
-  color: var(--color-letras);
   padding: 1em;
   border-style: none;
   cursor: pointer;
@@ -353,9 +362,6 @@ gap: 1.25rem;
 /* footer */
 
 .footer {
-  border-radius: 1.25rem;
-  background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
   padding: 1em;
   display: flex;
   flex-flow: row wrap;
@@ -364,7 +370,6 @@ gap: 1.25rem;
   margin-bottom: 1.5em;
 }
 .footer__copyright {
-  color: var(--color-letras);
   font-size: 0.8em;
 }
 

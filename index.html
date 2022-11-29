@@ -18,28 +18,32 @@
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/app.js"></script>
   </head>
-  <body>
-    <header class="header wrapper">
+  <body class="body">
+    <header class="header button--shadows wrapper">
       <nav class="header__nav nav">
-        <h1 class="nav__logo">Carlos <span class="text--green">J.</span></h1>
-        <ul class="nav__ul">
-          <!-- <li class="nav__li"><a href="#" class="nav__a">Inicio</a></li> -->
+        <div class="nav__container">
+          <h1 class="nav__logo text--darkmode">Carlos <span class="text--green">J.</span></h1>
+          <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="nav__moon" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          </svg>
+        </div>
+        <ul class="nav__ul nav__ul--dark">
           <li>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav__close" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="nav__close socials__img--dark" viewBox="0 0 16 16">
             <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
           </svg>
           </li>
           <li class="nav__li">
-            <a href="#aboutme" class="nav__a" title="sobremi">Sobre mí</a>
+            <a href="#aboutme" class="nav__a text--darkmode" title="sobremi">Sobre mí</a>
           </li>
           <li class="nav__li">
-            <a href="#proyects" class="nav__a" title="Proyectos">Proyectos</a>
+            <a href="#proyects" class="nav__a text--darkmode" title="Proyectos">Proyectos</a>
           </li>
           <li class="nav__li">
-            <a href="#skills" class="nav__a" title="Habilidades">Habilidades</a>
+            <a href="#skills" class="nav__a text--darkmode" title="Habilidades">Habilidades</a>
           </li>
           <li class="nav__li">
-            <a href="#contact" class="nav__a" title="Contáctame">Contáctame</a>
+            <a href="#contact" class="nav__a text--darkmode" title="Contáctame">Contáctame</a>
           </li>
           
         </ul>
@@ -47,7 +51,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            class="nav__menu"
+            class="nav__menu socials__img--dark"
             viewBox="0 0 16 16"
           >
             <path
@@ -73,16 +77,16 @@
           </div>
           <div class="aboutme__container--padding">
             <div class="aboutme__container button--shadows">
-              <h3 class="aboutme__h2">Frontend Developer</h3>
-              <p class="aboutme__p">
+              <h3 class="aboutme__h2 text--darkmode">Frontend Developer</h3>
+              <p class="aboutme__p text--darkmode">
                 Me encanta el mundillo de la programación web, pero más me
                 encanta ver como me supero cada día más.
               </p>
-              <p class="aboutme__p">
+              <p class="aboutme__p text--darkmode">
                 Me gusta ser bastante cuidadoso con el código y los detalles
                 del diseño de la página.
               </p>
-              <p class="aboutme__p">
+              <p class="aboutme__p text--darkmode">
                 Soy una persona bastante sociable y me gusta mucho compartir y recibir
                 recursos con mis compañeros/as.
               </p>
@@ -96,7 +100,7 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="socials__img"
+                    class="socials__img socials__img--dark"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -113,7 +117,7 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="socials__img"
+                    class="socials__img socials__img--dark"
                     class="bi bi-github"
                     viewBox="0 0 16 16"
                   >
@@ -141,7 +145,7 @@
             </div>
 
             <div class="proyects__description button--shadows">
-              <h3 class="proyects__h3">Marvel</h3>
+              <h3 class="proyects__h3 text--darkmode">Marvel</h3>
               <div class="proyects__metodologias">
                 <img
                   src="imagenes/javascript.png"
@@ -162,7 +166,7 @@
                   loading="lazy"
                 />
               </div>
-              <p class="proyects__p">
+              <p class="proyects__p text--darkmode">
                 Este proyecto esta realizado con Html, Css y un poco de
                 Javascript. Es un pequeño proyecto imitando algunas similitudes
                 a la página de marvel real, el diseño, con algunas cards de las
@@ -175,7 +179,7 @@
 
             <a
               href="https://carlosjesus954.github.io/marvel.github.io/"
-              class="proyects__link button--shadows"
+              class="proyects__link button--shadows text--darkmode"
               target="_blank"
               rel=”noopener”
               title="sitio"
@@ -193,7 +197,7 @@
             </div>
 
             <div class="proyects__description button--shadows">
-              <h3 class="proyects__h3">Rock Festival</h3>
+              <h3 class="proyects__h3 text--darkmode">Rock Festival</h3>
               <div class="proyects__metodologias">
                 <img
                   src="imagenes/javascript.png"
@@ -220,14 +224,14 @@
                   loading="lazy"
                 />
               </div>
-              <p class="proyects__p">
+              <p class="proyects__p text--darkmode">
                 Este proyecto esta realizado con Html, sass y 
                 Javascript. Es un pequeño proyecto poniendo a prueba los conocimientos sobre Sass, siendo mi primer proyecto implementandolo.
               </p>
             </div>
             <a
               href="https://carlosjesus954.github.io/ProyectoSass/"
-              class="proyects__link button--shadows"
+              class="proyects__link button--shadows text--darkmode"
               target="_blank"
               rel=”noopener”
               title="sitio"
@@ -245,7 +249,7 @@
             </div>
 
             <div class="proyects__description button--shadows">
-              <h3 class="proyects__h3">Funkos Tienda</h3>
+              <h3 class="proyects__h3 text--darkmode">Funkos Tienda</h3>
               <div class="proyects__metodologias">
                 <img
                   src="imagenes/javascript.png"
@@ -266,7 +270,7 @@
                   loading="lazy"
                 />
               </div>
-              <p class="proyects__p">
+              <p class="proyects__p text--darkmode">
                 Es un proyecto en el que es mas funcional y mas interactivo con
                 el usuario, ya que puedes añadir elementos a un carrito, podras
                 eliminarlos o vaciar entero el carrito y mucho más. El diseño en
@@ -279,7 +283,7 @@
 
             <a
               href="https://carlosjesus954.github.io/funkosshop.github.io/"
-              class="proyects__link button--shadows"
+              class="proyects__link button--shadows text--darkmode"
               target="_blank"
               rel=”noopener”
               title="sitio"
@@ -293,11 +297,11 @@
         <div class="skills__cards ">
           <div class="skills__text button--shadows">
             <img src="imagenes/html5.png" alt="html5" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Html</h3>
+            <h3 class="skills__h3 text--darkmode">Html</h3>
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/css.png" alt="css" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Css</h3>
+            <h3 class="skills__h3 text--darkmode">Css</h3>
           </div>
           <div class="skills__text button--shadows">
             <img
@@ -306,19 +310,19 @@
               class="skills__img"
               loading="lazy"
             />
-            <h3 class="skills__h3">Javascript</h3>
+            <h3 class="skills__h3 text--darkmode">Javascript</h3>
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/bootstrap.png" alt="Boostrapp" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Bootstrap</h3>
+            <h3 class="skills__h3 text--darkmode">Bootstrap</h3>
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/git.png" alt="git" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Git</h3>
+            <h3 class="skills__h3 text--darkmode">Git</h3>
           </div>
           <div class="skills__text button--shadows">
             <img src="imagenes/sass.png" alt="git" class="skills__img" loading="lazy"/>
-            <h3 class="skills__h3">Sass</h3>
+            <h3 class="skills__h3 text--darkmode">Sass</h3>
           </div>
         </div>
       </section>
@@ -328,33 +332,33 @@
         <h2 class="tittle ">Contacto</h2>
         <div class="contact__container ">
           <div class="info">
-            <h3 class="info__ubicacion">Puerto Real, Cádiz</h3>
-            <span class="info__correo">Correo Electronico Proximamente...</span>
+            <h3 class="info__ubicacion text--darkmode">Puerto Real, Cádiz</h3>
+            <span class="info__correo text--darkmode">Correo Electronico Proximamente...</span>
           </div>
           <form action="#" class="form">
             <input
               name="nombre"
               type="text"
-              class="form__input button--shadows"
+              class="form__input button--shadows text--darkmode"
               placeholder="Escriba su nombre..."
             />
             <input
               name="email"
               type="email"
-              class="form__input button--shadows"
+              class="form__input button--shadows text--darkmode"
               placeholder="Escriba su email..."
             />
             <textarea
               name="mensaje"
               cols="30"
               rows="10"
-              class="form__input button--shadows"
+              class="form__input button--shadows text--darkmode"
               placeholder="Escriba su mensaje..."
             ></textarea>
             <input
               type="submit"
               value="Enviar"
-              class="form__submit form__input button--shadows"
+              class="form__submit form__input button--shadows text--darkmode"
             />
           </form>
           <a href="mailto:carlosmoralessoy@gmail.com" class="enviame">mail</a>
@@ -362,8 +366,8 @@
       </section>
       
     </main>
-    <footer class="footer wrapper">
-      <span class="footer__copyright">carlosjesus@copyright</span>
+    <footer class="footer button--shadows wrapper">
+      <span class="footer__copyright text--darkmode">carlosjesus@copyright</span>
       <ul class="socials">
         <li class="socials__element ">
           <a
@@ -373,7 +377,7 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="socials__img"
+              class="socials__img socials__img--dark"
               viewBox="0 0 16 16"
             >
               <path
@@ -386,7 +390,7 @@
           <a href="https://github.com/carlosjesus954" class="socials__link" title="github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="socials__img"
+              class="socials__img socials__img--dark"
               class="bi bi-github"
               viewBox="0 0 16 16"
             >
