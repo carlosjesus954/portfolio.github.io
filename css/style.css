@@ -33,35 +33,37 @@ body {
 .enviame {
   display: none;
 }
-.mode--light{
+.mode--light {
   background-color: #fff;
 }
-.text--lightmode{
+.text--lightmode {
   color: #141414;
 }
-.text--darkmode{
+.text--darkmode {
   color: var(--color-letras);
 }
-.socials__img--light{
+.socials__img--light {
   fill: #141414;
 }
-.socials__img--dark{
+.socials__img--dark {
   fill: var(--color-letras);
 }
-.button--lightshadows{
+.button--lightshadows {
   border-radius: 1.25rem;
-  background:linear-gradient(145deg, #dbdbdb);
-  box-shadow: .3125rem .3125rem .625rem rgb(235, 235, 235), -0.3125rem -0.3125rem .625rem #3e3e3e;
+  background: linear-gradient(145deg, #dbdbdb);
+  box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(235, 235, 235),
+    -0.3125rem -0.3125rem 0.625rem #3e3e3e;
 }
 .button--shadows {
-  
   border-radius: 1.25rem;
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem #101010,
+    -0.3125rem -0.3125rem 0.625rem #3e3e3e;
 }
 .button--cuadrados {
   background: linear-gradient(145deg, #2a2a2a, #232323);
-  box-shadow: .3125rem .3125rem .625rem #101010, -0.3125rem -0.3125rem .625rem #3e3e3e;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem #101010,
+    -0.3125rem -0.3125rem 0.625rem #3e3e3e;
 }
 /* Nav */
 .header {
@@ -76,19 +78,19 @@ body {
   position: relative;
   padding: 1rem;
 }
-.nav__container{
+.nav__container {
   display: flex;
   flex-flow: row nowrap;
   gap: 1rem;
   align-items: center;
   justify-content: start;
 }
-.nav__moon{
+.nav__moon {
   width: 2rem;
   height: 2rem;
   fill: var(--color-letras);
 }
-.nav__moon--light{
+.nav__moon--light {
   fill: #141414;
 }
 .nav__logo {
@@ -105,13 +107,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  backdrop-filter: blur(.125rem);
+  backdrop-filter: blur(0.125rem);
   right: -110%;
   top: 0;
   transition: 0.5s;
   border-radius: 0.2em;
 }
-.nav__ul--dark{
+.nav__ul--dark {
   background-color: #272727;
 }
 .activo {
@@ -123,8 +125,8 @@ body {
 .nav__a {
   font-size: 1.5em;
 }
-.nav__a:hover{
-  text-decoration: var(--verde) underline .125rem;
+.nav__a:hover {
+  text-decoration: var(--verde) underline 0.125rem;
   transition: 1s;
 }
 .nav__icons {
@@ -159,7 +161,7 @@ body {
   margin-bottom: 1.2em;
   padding: 0.6em;
   color: var(--verde);
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 0.1rem;
   font-size: 2rem;
 }
@@ -207,12 +209,12 @@ body {
   text-align: left;
   gap: 1.6em;
 }
-.aboutme__container--padding{
+.aboutme__container--padding {
   padding: 1.6rem;
-display: flex;
-flex-flow: column;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutme__container {
   display: flex;
@@ -223,7 +225,7 @@ justify-content: center;
   max-width: 31.25rem;
 }
 .aboutme__h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
 }
@@ -285,10 +287,10 @@ justify-content: center;
   display: flex;
   flex-flow: column wrap;
   gap: 1em;
-  max-width: 36rem;
+  max-width: 39rem;
 }
 .proyects__h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
 }
@@ -310,10 +312,10 @@ justify-content: center;
 }
 .proyects__metodologias {
   display: flex;
-flex-flow: row wrap;
-gap: 1.25rem;
+  flex-flow: row wrap;
+  gap: 0.25rem;
 }
-.metodologias__icons{
+.metodologias__icons {
   width: 2rem;
 }
 
@@ -354,7 +356,7 @@ gap: 1.25rem;
   /* outline: none; */
 }
 
-.form__submit:hover{
+.form__submit:hover {
   color: var(--verde);
   transition: 0.5s;
 }
@@ -400,7 +402,7 @@ gap: 1.25rem;
   .nav__li {
     margin: 0;
   }
-  .aboutme__gallery{
+  .aboutme__gallery {
     padding: 0;
   }
 }
@@ -408,11 +410,11 @@ gap: 1.25rem;
   .aboutme__global {
     grid-template-columns: repeat(2, 1fr);
   }
-  .aboutme__gallery{
+  .aboutme__gallery {
     border-radius: 1.25rem;
     max-width: 100%;
   }
-  .aboutme__img{
+  .aboutme__img {
     border-radius: 1.25rem;
   }
   .skills__cards {
@@ -421,7 +423,7 @@ gap: 1.25rem;
   .proyects__global {
     grid-template-columns: repeat(3, 1fr);
   }
-  .proyects__description{
+  .proyects__description {
     height: 21rem;
   }
   .main {
