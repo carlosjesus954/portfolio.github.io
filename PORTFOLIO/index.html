@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Autor: Carlos Jesús Morales Pica , Portfolio"
+    />
+    <title>Portfolio Carlos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body class="body">
+    <header class="header button--shadows wrapper">
+      <nav class="header__nav nav">
+        <div class="nav__container">
+          <h1 class="nav__logo text--darkmode">
+            Carlos <span class="text--green">J.</span>
+          </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="nav__moon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+            />
+          </svg>
+        </div>
+        <ul class="nav__ul nav__ul--dark">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="nav__close socials__img--dark"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+              />
+            </svg>
+          </li>
+          <li class="nav__li">
+            <a href="#aboutme" class="nav__a text--darkmode" title="sobremi"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="nav__li">
+            <a href="#proyects" class="nav__a text--darkmode" title="Proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li class="nav__li">
+            <a href="#skills" class="nav__a text--darkmode" title="Habilidades"
+              >Habilidades</a
+            >
+          </li>
+          <li class="nav__li">
+            <a href="#contact" class="nav__a text--darkmode" title="Contáctame"
+              >Contáctame</a
+            >
+          </li>
+        </ul>
+        <div class="nav__icons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="nav__menu socials__img--dark"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+    <main class="main wrapper">
+      <section class="aboutme button--shadows" id="aboutme">
+        <h2 class="tittle">Sobre <span class="text--green">Mí</span></h2>
+        <div class="aboutme__global">
+          <div class="aboutme__gallery">
+            <img
+              src="imagenes/photo_me2.png"
+              alt="Carlos Jesús"
+              class="aboutme__img"
+            />
+          </div>
+          <div class="aboutme__container--padding">
+            <div class="aboutme__container button--shadows">
+              <h3 class="aboutme__h2 text--darkmode">Frontend Developer</h3>
+              <p class="aboutme__p text--darkmode">
+                Me encanta el mundillo de la programación web, pero más me
+                encanta ver como me supero cada día más.
+              </p>
+              <p class="aboutme__p text--darkmode">
+                Me gusta ser bastante cuidadoso con el código y los detalles del
+                diseño de la página.
+              </p>
+              <p class="aboutme__p text--darkmode">
+                Soy una persona bastante sociable y me gusta mucho compartir y
+                recibir recursos con mis compañeros/as.
+              </p>
+            </div>
+            <ul class="socials">
+              <li class="socials__element">
+                <a
+                  href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
+                  class="socials__link"
+                  title="linkedin"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="socials__img socials__img--dark"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="socials__element">
+                <a
+                  href="https://github.com/carlosjesus954"
+                  class="socials__link"
+                  title="github"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="socials__img socials__img--dark"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="proyects wrapper button--shadows" id="proyects">
+        <h2 class="tittle">Proyectos</h2>
+        <div class="proyects__global">
+          <div class="proyects__cards">
+            <div class="proyects__gallery">
+              <img
+                src="imagenes/ogs__proyecto.jpg"
+                alt="Marvel"
+                class="proyects__img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="proyects__description button--shadows">
+              <h3 class="proyects__h3 text--darkmode">Marvel</h3>
+              <div class="proyects__metodologias">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/sass.png"
+                  alt="sass"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/React.png"
+                  alt="react"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/vite.jpg"
+                  alt="vite"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+              </div>
+              <p class="proyects__p text--darkmode">
+                Mi proyecto estrella, es una copia de la tienda de IlloJuan.
+                LLamada Og's es mi primer proyecto con react, una tienda
+                funcional, imitando a la pagina original. Tiene validaciones
+                para el formulario sin embargo solo es funcional ya que no hay
+                nada de back-end.
+              </p>
+            </div>
+
+            <a
+              href="https://loquacious-cascaron-ab85e8.netlify.app/"
+              class="proyects__link button--shadows text--darkmode"
+              target="_blank"
+              rel="”noopener”"
+              title="sitio"
+              >Ver sitio</a
+            >
+          </div>
+          <div class="proyects__cards">
+            <div class="proyects__gallery">
+              <img
+                src="imagenes/rock_festival.jpg"
+                alt="Marvel"
+                class="proyects__img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="proyects__description button--shadows">
+              <h3 class="proyects__h3 text--darkmode">Rock Festival</h3>
+              <div class="proyects__metodologias">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/sass.png"
+                  alt="sass"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+              </div>
+              <p class="proyects__p text--darkmode">
+                Este proyecto esta realizado con Html, sass y Javascript. Es un
+                pequeño proyecto poniendo a prueba los conocimientos sobre Sass,
+                siendo mi primer proyecto implementandolo.
+              </p>
+            </div>
+            <a
+              href="https://carlosjesus954.github.io/ProyectoSass/"
+              class="proyects__link button--shadows text--darkmode"
+              target="_blank"
+              rel="”noopener”"
+              title="sitio"
+              >Ver sitio</a
+            >
+          </div>
+          <div class="proyects__cards">
+            <div class="proyects__gallery">
+              <img
+                src="imagenes/tiendafunkos__proyecto2.jpg"
+                alt="Marvel"
+                class="proyects__img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="proyects__description button--shadows">
+              <h3 class="proyects__h3 text--darkmode">Funkos Tienda</h3>
+              <div class="proyects__metodologias">
+                <img
+                  src="imagenes/javascript.png"
+                  alt="javascript"
+                  class="metodologias__icons icons--big"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/html5.png"
+                  alt="html"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+                <img
+                  src="imagenes/css.png"
+                  alt="css"
+                  class="metodologias__icons"
+                  loading="lazy"
+                />
+              </div>
+              <p class="proyects__p text--darkmode">
+                Es un proyecto en el que es mas funcional y mas interactivo con
+                el usuario, ya que puedes añadir elementos a un carrito, podras
+                eliminarlos o vaciar entero el carrito y mucho más. El diseño en
+                si no ha sido copiado de ninguna página en especifico, ya que es
+                mas simple pero mucho mas interactivo. Poniendo a prueba mis
+                conocimientos de Javascript.
+              </p>
+            </div>
+
+            <a
+              href="https://carlosjesus954.github.io/funkosshop.github.io/"
+              class="proyects__link button--shadows text--darkmode"
+              target="_blank"
+              rel="”noopener”"
+              title="sitio"
+              >Ver sitio</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="skills button--shadows" id="skills">
+        <h2 class="tittle">Habilidades</h2>
+        <div class="skills__cards">
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/html5.png"
+              alt="html5"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Html</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/css.png"
+              alt="css"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Css</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/javascript.png"
+              alt="javascript"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Javascript</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/bootstrap.png"
+              alt="Boostrapp"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Bootstrap</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/git.png"
+              alt="git"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Git</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/sass.png"
+              alt="git"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Sass</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/React.png"
+              alt="react"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">React</h3>
+          </div>
+          <div class="skills__text button--shadows">
+            <img
+              src="imagenes/vite.jpg"
+              alt="vite"
+              class="skills__img"
+              loading="lazy"
+            />
+            <h3 class="skills__h3 text--darkmode">Vite</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact button--shadows" id="contact">
+        <h2 class="tittle">Contacto</h2>
+        <div class="contact__container">
+          <div class="info">
+            <h3 class="info__ubicacion text--darkmode">Puerto Real, Cádiz</h3>
+            <span class="info__correo text--darkmode"
+              >Correo Electronico Proximamente...</span
+            >
+          </div>
+          <form action="#" class="form">
+            <input
+              name="nombre"
+              type="text"
+              class="form__input button--shadows text--darkmode"
+              placeholder="Escriba su nombre..."
+            />
+            <input
+              name="email"
+              type="email"
+              class="form__input button--shadows text--darkmode"
+              placeholder="Escriba su email..."
+            />
+            <textarea
+              name="mensaje"
+              cols="30"
+              rows="10"
+              class="form__input button--shadows text--darkmode"
+              placeholder="Escriba su mensaje..."
+            ></textarea>
+            <input
+              type="submit"
+              value="Enviar"
+              class="form__submit form__input button--shadows text--darkmode"
+            />
+          </form>
+          <a href="mailto:carlosmoralessoy@gmail.com" class="enviame">mail</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer button--shadows wrapper">
+      <span class="footer__copyright text--darkmode"
+        >carlosjesus@copyright</span
+      >
+      <ul class="socials">
+        <li class="socials__element">
+          <a
+            href="https://www.linkedin.com/in/carlos-jesús-morales-pica-a77427170/"
+            class="socials__link"
+            title="linkedin"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="socials__img socials__img--dark"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="socials__element">
+          <a
+            href="https://github.com/carlosjesus954"
+            class="socials__link"
+            title="github"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="socials__img socials__img--dark"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
